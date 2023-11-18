@@ -29,6 +29,7 @@ This URL shortener allows you to create short, easy-to-share URLs for your long 
 
    ```bash
    git clone https://github.com/your-username/url-shortener.git
+   
 # Navigate to the project directory:
    ```bash
    cd url-shortener
@@ -37,16 +38,16 @@ This URL shortener allows you to create short, easy-to-share URLs for your long 
 # Install dependencies:
 
 ```bash
-Copy code
 npm install
-Set up your MongoDB connection:
-
+```
+# Set up your MongoDB connection:
 Open index.js and update the MongoDB connection string.
 Start the server:
 
-bash
-Copy code
+```bash
 node index.js
+```
+
 # Usage :
 -> Open your browser and navigate to http://localhost:3000.
 -> Enter a long URL in the provided form and click "Shorten URL."
@@ -54,11 +55,11 @@ node index.js
 # Contributing:
 ->Contributions are welcome! Feel free to open issues or pull requests.
 
-Fork the repository.
-Create a new branch: git checkout -b feature/new-feature.
-Make your changes and commit them: git commit -m 'Add new feature'.
-Push to the branch: git push origin feature/new-feature.
-Submit a pull request.
+1. Fork the repository.
+2. Create a new branch: git checkout -b feature/new-feature.
+3. Make your changes and commit them: git commit -m 'Add new feature'.
+4. Push to the branch: git push origin feature/new-feature.
+5. Submit a pull request.
 
 # License
 This project is licensed under the MIT License.
