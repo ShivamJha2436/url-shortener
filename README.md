@@ -30,11 +30,13 @@ This URL shortener allows you to create short, easy-to-share URLs for your long 
    ```bash
    git clone https://github.com/your-username/url-shortener.git
 # Navigate to the project directory:
-cd url-shortener
+   ```bash
+   cd url-shortener
+   ```
 
 # Install dependencies:
 
-bash
+```bash
 Copy code
 npm install
 Set up your MongoDB connection:
