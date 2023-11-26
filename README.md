@@ -40,7 +40,7 @@ This URL shortener allows you to create short, easy-to-share URLs for your long 
 ```bash
 npm install
 ```
-# Set up your MongoDB connection:
+# Set up your MongoDB connection:-
 Open index.js and update the MongoDB connection string.
 Start the server:
 
